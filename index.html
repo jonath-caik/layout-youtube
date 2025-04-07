@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/YouTube_23392.ico" type="image/x-icon">
+    <title> YouTube Clone </title>
+</head>
+
+<body> <!-- butão da troca de temas-->
+    <div class="trilho" id="trilho">
+        <div class="indicador">
+
+        </div>
+    </div> <!--fechamento do botão-->
+
+    <header class="header">
+
+        <a href="#">
+            <img src="img/logo.png" alt="youtube logo" class="youtube-logo">
+        </a>
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="pesquise aqui" aria-label="search" />
+            <button type="submit" class="search-btn">
+                <img src="img/busca.png">
+            </button>
+        </form>
+        <div class="menu-icons">
+            <a href="https://www.youtube.com/upload">
+                <img src="img/video.png" alt="upload video" width="30rem">
+            </a>
+            <a href="https://www.youtube.com/feed/subscriptions">
+                <img src="img/grid.png" alt="apps" width="30rem">
+            </a>
+            <a href="https://www.youtube.com/account_notifications">
+                <img src="img/notficação.png" alt="notifications" width="30rem">
+
+            </a>
+            <a href="https://www.youtube.com/@Morenoh.01">
+                <img class="menu-channel" src="img/perfil.png" alt="you channel" width="50rem">
+            </a>
+        </div>
+    </header>
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">Tudo</button>
+            <button class="category ">Games</button>
+            <button class="category ">Programação</button>
+            <button class="category ">Músicas</button>
+            <button class="category ">Docomentarios</button>
+            <button class="category ">Filmes</button>
+            <button class="category ">Livestreams</button>
+            <button class="category ">Desenhos</button>
+            <button class="category ">Vlogs</button>
+            <button class="category ">Outros</button>
+        </section>
+    </div>
+    <div class="videos">
+
+        <section class="video-section">
+            <article class="video-container">
+
+                <a href="https://youtu.be/kOAJ3Ltqrrw?si=7yVClj8RtMqJts9g" class=" thumbnail" data-duration="2:54">
+                    <img class="thumbnail-image" src="img/façamtodosclicarem.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Não abra</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> </a>
+                        <div class="video-metadata">
+                            <span>10,3 mil visualizações</span>
+                            •
+                            <span> há 2 semanas </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/Q5N5z8CpKQk?si=ll3OHXUggKB-KSoo" class=" thumbnail" data-duration="5:24">
+                    <img class="thumbnail-image"
+                        src="img/inteligência-artificial.jpg"
+                        alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Inteligência artificial</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>58 mil visualizações</span>
+                            •
+                            <span>há 4 horas</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/j_rIDzXKa4c?si=bY56tgLy_8k35Zam" class=" thumbnail" data-duration="35:24">
+                    <img class="thumbnail-image" src="img/como-ficar-rico.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">passo a passo de como ficar rico 🤑🤑💲💲💸💰</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>234 mil visualizações </span>
+                            •
+                            <span>há 1 mês</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/VsD9-Mpkzuk?si=6ZS90MYd40MCBzhE" class=" thumbnail" data-duration="2:24">
+                    <img class="thumbnail-image"
+                        src="img/ficando-rico-com-programaçâo.jfif"
+                        alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Programação deixa Você rico 💲💲💲💲</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> </a>
+                        <div class="video-metadata">
+                            <span>309 mil visualizações</span>
+                            •
+                            <span>há 1 ano</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/uhseEwBKnF8?si=g5TX1-7ukcusCd8T" class=" thumbnail" data-duration="7:22">
+                    <img class="thumbnail-image" src="img/hetero-top.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Como ser reconhecido?</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>101 mil visualizações</span>
+                            •
+                            <span>há 1 semana </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/4CYoJO6tiWs?si=z3QchaAdmk6_3IKX" class=" thumbnail" data-duration="26:14">
+                    <img class="thumbnail-image"
+                        src="img/Fazer-isso-com-ela.jpg"
+                        alt="">
+
+
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Dicionario para o Homem usar na hora " H "</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>31 mi de visualizações</span>
+                            •
+                            <span>há 1 ano</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/ta0Al-j8vYg?si=wd5jvZC-XxCq-L5p" class=" thumbnail" data-duration="10:21">
+                    <img class="thumbnail-image" src="img/Timidez.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Você é muito timido?</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>1,7 mi de visualizações </span>
+                            •
+                            <span>há 2 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/2Q5HThyEfYk?si=ke7nSIgYteNOFiMX" class=" thumbnail" data-duration="3:18">
+                    <img class="thumbnail-image"
+                        src="img/zuera-no-banheiro.jpg"
+                        alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Zueras no banheiro 2 </a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>4,3 mi de visualizações</span>
+                            •
+                            <span> há 9 anos </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/308ZJ-dP8c4?si=V3RhhJVOUTmjVc-_" class=" thumbnail" data-duration="8:53">
+                    <img class="thumbnail-image" src="img/um-baiano-no-rap.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Um baiano no rap </a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>3,7 mi de visualizações</span>
+                            •
+                            <span> há 4 anos </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/UXHt8pUIbp4?si=_D6pSFdxWbioCtcI" class=" thumbnail" data-duration="4:30">
+                    <img class="thumbnail-image" src="img/10-ocupados.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Os 10Ocupados na blitz |👨‍✈️🔫🚔🚔</a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>1,5 mi de visualizações</span>
+                            •
+                            <span> há 6 anos </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="#" class=" thumbnail" data-duration="51:47">
+                    <img class="thumbnail-image" src="img/youtubes.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="https://youtu.be/bqQF6h8WoVU?si=oEGz3c6HEDnajX3Z">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Os maiores youtubers </a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>66 mil visualizações</span>
+                            •
+                            <span> há 1 ano </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/hn3J0Kx5eI0?si=Uvf1kOnxEba4ABIR" class=" thumbnail" data-duration="15:01">
+                    <img class="thumbnail-image" src="img/filmes.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Filme de ação 🔫 </a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>1,1 mi de visualizações</span>
+                            •
+                            <span> há 9 dias </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/JWA5hJl4Dv0?si=7exdTmibRZ0SRDw9" class=" thumbnail" data-duration="4:04">
+                    <img class="thumbnail-image" src="img/musicas-que-ja-ouvir.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">musica que voçe já escultou mais não lembra o nome </a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>711 mi de visualizações</span>
+                            •
+                            <span> há 15 anos </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+
+                <a href="https://youtu.be/bP8KRjZnams?si=ADWvo6y6cLRTg7EI" class=" thumbnail" data-duration="8:24">
+                    <img class="thumbnail-image" src="img/musicas-2008.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">As melhores musicas de 2008 </a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>850 mil visualizações</span>
+                            •
+                            <span> há 7 anos </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+
+                <a href="https://youtu.be/ydUDZWNbik4?si=w8gbtffxB--V9euA" class=" thumbnail" data-duration="21:47">
+                    <img class="thumbnail-image" src="img/desenhos.jpg" alt="">
+                </a>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="img/Screenshot_20250325_012933_Gallery.jpg" alt="">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">O melhor desenho animado do ano de 2000 a 2009 </a>
+                        <a href="#" class="video-channel-name">jonath caik <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="50px" height="18px" viewBox="290,-30,150,256"
+                                style="fill:#EBEBEB;">
+                                <g fill="#9e9b9b" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path
+                                            d="M32,6c-14.359,0 -26,11.641 -26,26c0,14.359 11.641,26 26,26c14.359,0 26,-11.641 26,-26c0,-14.359 -11.641,-26 -26,-26zM45.121,28.121l-13,13c-0.586,0.586 -1.353,0.879 -2.121,0.879c-0.768,0 -1.535,-0.293 -2.121,-0.879l-8,-8c-1.172,-1.171 -1.172,-3.071 0,-4.242c1.172,-1.172 3.07,-1.172 4.242,0l5.879,5.879l10.879,-10.879c1.172,-1.172 3.07,-1.172 4.242,0c1.172,1.171 1.172,3.071 0,4.242z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <div class="video-metadata">
+                            <span>1,5 mi visualizações</span>
+                            •
+                            <span> há 6 meses </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+        </section>
+
+
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,260 @@
+.trilho {
+    width: 50px;
+    height: 20px;
+    background-color: #9c9696;
+    border-radius: 150px;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+
+}
+
+.trilho .indicador {
+    width: 22px;
+    height: 20px;
+    background-color: rgb(25, 24, 24);
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.dark {
+    background-color: #847e7e;
+}
+
+
+.trilho.dark .indicador {
+    left: 28px;
+    background-color: #e6e2e2;
+}
+
+*,
+*::after,
+*::after {
+    box-sizing: border-box;
+    font-family: roboto, arial;
+}
+
+body.dark {
+    background-color: #0c0b0b;
+    margin: 0;
+}
+
+body.dark .video-details .video-title {
+    color: #f0ebeb;
+}
+
+body.dark .video-details .video-channel-name {
+    color: #ebe9e9;
+}
+
+body.dark .video-details .video-metadata {
+    color: #e0d6d6;
+}
+
+.video-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 3rem 1rem;
+    padding: 3rem 0;
+    margin: 0 1.5rem;
+    border: 4px solid#77757500;
+}
+
+.video-section:first-child .dark {
+    border-top: none;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    position: relative;
+    display: flex;
+}
+
+.thumbnail::before {
+    content: attr(data-duration);
+    position: absolute;
+    background-color: rgb(23, 23, 25);
+    color: rgb(238, 231, 231);
+    right: 5px;
+    bottom: 5px;
+    padding: .1em .3em;
+    border-radius: .3em;
+    font-size: .9rem;
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    min-width: 250px;
+    min-height: 150px;
+    background-color: #120f0f;
+}
+
+.video-bottom-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.channel-icon {
+    margin-right: .75rem;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #201a1a;
+}
+
+.video-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-title {
+
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.video-channel-name {
+    margin-bottom: .1rem;
+    text-decoration: none;
+    transition: color 150ms;
+}
+
+.video-channel-name:hover {
+    color: #b6a3a3;
+}
+
+.video-channel-name,
+.video-metadata {
+    color: #4e4b4b;
+}
+
+.video-section-title {
+    grid-column: 1/-1;
+    margin: -.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+.video-section-title-close {
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 2rem;
+    color: #f8eeee;
+    cursor: pointer;
+}
+
+.videos.dark {
+    background-color: #171414;
+}
+
+.categories {
+    padding: 1rem 2rem;
+    border-top: 1px solid#999;
+    border-bottom: 1px solid#999;
+}
+
+.category-section {
+    display: flex;
+    overflow: hidden;
+}
+
+.category {
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid#ccc;
+    border-radius: 900px;
+    background-color: #e7e7e7;
+    padding: .5rem 1rem;
+    font-size: inherit;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.category:hover {
+    background-color: #ddd;
+}
+
+.category.active {
+    background-color: #606060;
+    color: white;
+    border-color: #eee;
+}
+
+.category:last-child {
+    margin-right: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+
+}
+
+.search-input {
+    width: 100%;
+    font-size: inherit;
+    padding: .4rem;
+    border: 1px solid #777;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.search-btn {
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #777;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+
+    background-color: #f0f0f0;
+}
+
+.menu-icon {
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu-channel-icon {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #aaa;
+}
